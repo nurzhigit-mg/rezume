@@ -1,0 +1,76 @@
+
+@media (max-width: 768px) {
+  .burger-menu {
+    display: block;
+  }
+  #header .header--link {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    padding: 20px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  #toggle:checked ~ .header--link {
+    display: flex;
+  }
+
+#me .me--text {
+    padding-top: 323px;
+    overflow-y: auto;
+    height: 50px;
+  }
+  #skill .skill--tab {
+    flex-direction: column;
+  }
+  #footer .footer h3 {
+    width: 100%;
+  }
+
+}
+@media (max-width: 640px) {
+  .burger-menu {
+    top: 15px;
+    right: 15px;
+  }
+  #header .header--link {
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+  }
+  #me .me--text {
+    padding-top: 364px;
+  }
+  #skill .skill--tab__left--block--man {
+    width: 90%;
+  }
+  #hero .hero--block__text {
+    width: 100%;
+  }
+  #me .me--logo {
+    width: 90%;
+  }
+  #hero .hero--block img{
+    display: none;
+  }
+  #me .me--text {
+    padding-top: 447px;
+    overflow-y: auto;
+    height: 5px;
+  }
+  #section .section--smart__block--name h2 {
+    font-size: 16px;
+  }
+  #me .me--text p {
+    width: 100%;
+  }
+}
+.burger-menu {
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  opacity: 0;
+}
